@@ -7,7 +7,7 @@ def SelectionSort(L):
         for j in range(i + 1, n):
             if L[j] < L[mpos]:
                 mpos = j
-                # Humne swap ko aapke hi tarike se rakha hai
+                
                 (L[i], L[mpos]) = (L[mpos], L[i])
                 
 
