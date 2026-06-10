@@ -32,4 +32,4 @@ class Solution:
             # Update k for the next iteration
             k = k % block_size
             
-        return ans
+        return
